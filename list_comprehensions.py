@@ -4,7 +4,7 @@ def run():
     #     if  i%3 != 0:
     #         squares.append(i**2)
 
-    squares = [i**2 for i in range(1, 101) if i % 3 != 0] #Es lo mismo de arriva [element for element in interable if condicition]
+    squares = [i**2 for i in range(1, 101) if i % 3 != 0] #Es lo mismo de arriba [element for element in interable if condicition]
     print(squares)
 
     squares = [ i for i in range(1, 100000) if i % 36 == 0]
